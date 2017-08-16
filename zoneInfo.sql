@@ -8,4 +8,6 @@
 -- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 8006, 1, "115.159.251.114", 30101, "机器人区_YP07", 1);
 -- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 8007, 1, "118.194.48.47", 30101, "测试三区_BJ06", 1);
 
+
+delete from zoneInfo where `zone` = 8006;
 insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019,2, 1, "115.159.251.114", 30101, "风雨同舟_YP07", 1);
