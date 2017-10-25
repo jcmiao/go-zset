@@ -11,6 +11,10 @@
 
 -- delete from zoneInfo where `zone` = 8006;
 -- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019,2, 1, "115.159.251.114", 30101, "风雨同舟_YP07", 1);
-insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1000, 1, "211.159.201.48", 30101, "英雄(测试)_JD06", 1);
-delete from zoneInfo where `zone` = 1;
-insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1, 1, "211.159.201.77", 30101, "携手同行_JD50", 1);
+-- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1000, 1, "211.159.201.48", 30101, "英雄(测试)_JD06", 1);
+-- delete from zoneInfo where `zone` = 1;
+-- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1, 1, "211.159.201.77", 30101, "携手同行_JD50", 1);
+
+
+insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1000, 1, "211.159.201.48", 30101, "烽烟再起_JD06", 1);  
+
