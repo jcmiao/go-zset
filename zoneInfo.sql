@@ -16,5 +16,5 @@
 -- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1, 1, "211.159.201.77", 30101, "携手同行_JD50", 1);
 
 
-insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1000, 1, "211.159.201.48", 30101, "烽烟再起_JD06", 1);  
-
+-- insert into zoneInfo(game, zone, zoneType, ip, port, name, IsUse) values(10019, 1000, 1, "211.159.201.48", 30101, "烽烟再起_JD06", 1);  
+update zoneInfo set name="烽烟再起_JD06" where zone=1000;
